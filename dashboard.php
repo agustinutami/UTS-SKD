@@ -84,9 +84,19 @@ if (!isset($_SESSION['id'])) {
                     <h2>Selamat Datang!</h2>
                     <table style="font-size:large;">
                         <tr>
+                            <td><b>NISN</b></td>
+                            <td>&nbsp;</td>
+                            <td><?php echo $result['nisn']; ?></td>
+                        </tr>
+                        <tr>
                             <td><b>Nama</b></td>
                             <td>&nbsp;</td>
                             <td><?php echo $result['fullname']; ?></td>
+                        </tr>
+                        <tr>
+                            <td><b>Asal Sekolah</b></td>
+                            <td>&nbsp;</td>
+                            <td><?php echo $result['school']; ?></td>
                         </tr>
                         <tr>
                             <td><b>Username</b></td>
